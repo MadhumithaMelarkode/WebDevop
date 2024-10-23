@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+#btn
+{
+    text-align:center;
+    color:white;
+    background-color:#387ED1;
+    border:none;
+    padding:12px 35px;
+    font-size:larger;
+    cursor:pointer;
+    border-radius:0.2rem;
+}
+#btn:hover{
+    background-color:black;
+    
+}
+a{
+    text-decoration:none;
+    color:#666666;
+    font-size:14.4px;
+    font-family:inter,serif;   
+}
+a:hover{
+    color:#387ED1;
+}
+.links{
+    border-bottom:1px solid lightgray;
+    padding:5px;
+    display:flex;
+    justify-content:flex-end;
+    font-size: 14.4px;
+
+}
+h1{
+    font-weight:500;
+    font-family:inter,serif;
+    font-size:44px;
+    color:#424242;
+}
+p{
+    font-family:inter,serif;
+    font-size:20px;
+    color:#424242;
+}
+#img1{
+    padding:10px;
+    cursor:pointer;
+    border:1px solid black;
+    margin:30px,0,10px,20px;
+}
+.content {
+    background-image:url("https://zerodha.com/static/images/landing.png");
+    background-position: center;
+    text-align:center;
+}

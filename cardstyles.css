@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+.card{
+    width:350px;
+    border:1px solid black;
+}
+.image{
+    width:100%;
+    height:50vh;
+    background-image:url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/22/df29df2b-8ae3-4e8c-b535-5245ac6cddf7_526795.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    position:relative;
+}
+#discount{
+    position:absolute;
+    bottom:0px;
+    font-size:1.8rem;
+    font-family:ProximaNovaCond_Black;
+    font: weight 900px;;
+    color:white;
+    border:1px solid black
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.736),url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/22/df29df2b-8ae3-4e8c-b535-5245ac6cddf7_526795.jpg"));
+    /* width:100%; */
+    text-align:center;
+    padding: 0.4rem 0;
+    
+}
+.content{
+    padding:0.7rem;
+}
+.content p{
+    margin-bottom:10px;
+}
+#title{
+    font-size:18px;
+    font-family: Gilroy;
+}
+#rating{
+    font-size:1.2rem;
+}
+#desc{
+    font-size:1.2rem;
+}
+
+
+

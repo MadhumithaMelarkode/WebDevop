@@ -1,0 +1,76 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+ *{
+    margin:0;
+    padding:0;
+ }
+.card{
+    margin-left:20px;
+    margin-top:20px;
+    border:1px solid black;
+    width:340px;
+    border-radius:4px;
+    /* box-shadow: 0 0 50px 2px gray; */
+    box-shadow: 0 0 20px 2px gray;
+}
+.image{
+    padding:20px;
+    width:300px;
+    position:relative;
+    overflow:hidden; 
+    background-size:cover;
+}
+.fa-star{
+    color:green;
+}
+.rating{
+    padding:0.4rem 1rem;
+    background-color: white;
+    color:black;
+    font-size:1rem;
+    font-weight:bold;
+    position:absolute;
+    bottom:35px;
+    left:35px;
+    font-family:"Inter",sans-serif;
+    letter-spacing: 1px;
+}
+.content p{
+    /* padding:0.1rem; */
+    margin-left:30px;
+    margin-bottom:7px;
+}
+#title{
+    margin-top:0;
+    font-size:1.4rem;
+    font-weight:bold;
+    font-family:"Inter",sans-serif;
+    /* margin-left:4px; */
+}
+#desc{
+    margin-top:0;
+    color:gray;
+    font-family:"Inter",sans-serif;
+    letter-spacing: 1px;
+    font-size:1.2rem;
+}
+#price{
+    margin-top:0;
+    font-family:"Inter",sans-serif;
+    letter-spacing: 1px;
+    margin-bottom:30px;
+}
+#rprice{
+    font-weight: bold;
+    font-size:1.2rem;
+}
+#oprice{
+    text-decoration:line-through;
+    color:gray
+    font-size:1rem;
+}
+#dis{
+    font-size:1rem;
+    color:rgba(255, 68, 0, 0.845)
+}
