@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        *{
+            border:0;
+            padding:0;
+            margin:0;
+        }
+        .container{
+            background-image:url("./counter_bg.avif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+        }
+        .content{
+            
+            display:flex;
+            align-items:center;
+        }
+        .timer{
+            border:2px solid white;
+            border-radius: 0.2rem;;
+            color:white;
+            padding:0.3rem;
+            margin:0.3rem;
+        }
+        .container p{
+            font-weight: bold;
+            font-size:1.6rem;
+            color:white;
+        }
+        .container .btns{
+            display:flex;        
+            justify-content:center;
+            align-items:center;
+
+        }
+        .buttons{
+            border:2px solid white;
+            padding:0.3rem;
+            margin:0.3rem;
+            border-radius:0.2rem;
+            font-size:1rem;
+            font-weight:500;
+            background:none;
+            color:white;
+        }
+        #time{
+            /* border:2px solid white; */
+            padding:0.3rem;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+        <h1 id="hrs" class="timer">00</h1>
+        <p>:</p>
+        <h1 id="mins" class="timer">00</h1>
+        <p>:</p>
+        <h1 id="secs" class="timer">00</h1>
+        <h1 id="time">AM</h1>
+    </div>
+        <div class="btns">
+            <button id="sbtn" class="buttons">Start</button>
+            <button id="pbtn" class="buttons">Pause</button>
+            <button id="ebtn" class="buttons">Stop</button>
+        </div>
+    </div>
+    <script src="./counter.js"></script>
+</body>
+</html>
