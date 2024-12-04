@@ -3,128 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ContactList</title>
-    <link rel="stylesheet" href="./contactlist.css">
+    <title>Counter</title>
+    <style>
+        *{
+            border:0;
+            padding:0;
+            margin:0;
+        }
+        .container{
+            background-image:url("./counter_bg.avif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+        }
+        .content{
+            
+            display:flex;
+            align-items:center;
+        }
+        .timer{
+            border:2px solid white;
+            border-radius: 0.2rem;;
+            color:white;
+            padding:0.3rem;
+            margin:0.3rem;
+        }
+        .container p{
+            font-weight: bold;
+            font-size:1.6rem;
+            color:white;
+        }
+        .container .btns{
+            display:flex;        
+            justify-content:center;
+            align-items:center;
+
+        }
+        .buttons{
+            border:2px solid white;
+            padding:0.3rem;
+            margin:0.3rem;
+            border-radius:0.2rem;
+            font-size:1rem;
+            font-weight:500;
+            background:none;
+            color:white;
+        }
+        #time{
+            /* border:2px solid white; */
+            padding:0.3rem;
+            color:white;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <p>A</p>
-        <h3>AMMU</h3>
-        <h3>ADYUTH</h3>
-        <h3>ARUN</h3>
-        <h3>ANU</h3>
-        <h3>ANAND</h3>
-        <p>B</p>
-        <h3>BINDU</h3>
-        <h3>BALU</h3>
-        <h3>BHARGAV</h3>
-        <h3>BHIMESH</h3>
-        <h3>BADRI</h3>
-        <p>C</p>
-        <h3>CHANDU</h3>
-        <h3>CHINTU</h3>
-        <h3>CHINNA</h3>
-        <h3>CHINNI</h3>
-        <h3>CHINNU</h3>
-        <p>D</p>
-        <h3>DIVYA</h3>
-        <h3>DIYA</h3>
-        <h3>DEVI</h3>
-        <h3>DHRUV</h3>
-        <h3>DAKSHA</h3>
-        <p>E</p>
-        <h3>ELSA</h3>
-        <h3>EESHA</h3>
-        <h3>EKANSH</h3>
-        <h3>EDEN</h3>
-        <h3>ELENA</h3>
-        <p>F</p>
-        <h3>FARAH</h3>
-        <h3>FAROOQ</h3>
-        <h3>FARHANA</h3>
-        <h3>FAREED</h3>
-        <h3>FAREENA</h3>
-        <p>G</p>
-        <h3>GOWRI</h3>
-        <h3>GOPI</h3>
-        <h3>GIAN</h3>
-        <h3>GAGAN</h3>
-        <h3>GOWRAV</h3>
-        <p>H</p>
-        <h3>HIMA</h3>
-        <h3>HANISH</h3>
-        <h3>HARSHINI</h3>
-        <h3>HARITHA</h3>
-        <h3>HARI</h3>
-        <p>I</p>
-        <h3>INDU</h3>
-        <h3>INAYA</h3>
-        <h3>IDHAYA</h3>
-        <h3></h3>
-        <h3></h3>
-        <p>J</p>
-        <h3>JANITHA</h3>
-        <h3>JASMITHA</h3>
-        <h3>JAYA</h3>
-        <h3>JAANU</h3>
-        <h3>JAGADISH</h3>
-        <p>K</p>
-        <h3>KARTHIK</h3>
-        <h3>KALA</h3>
-        <h3>KIRAN</h3>
-        <h3>KAJAL</h3>
-        <h3>KAIRA</h3>
-        <p>L</p>
-        <h3>LAAHITHA</h3>
-        <h3>LAHYA</h3>
-        <h3>LAVANYA</h3>
-        <h3>LIYA</h3>
-        <h3>LASYA</h3>
-        <p>M</p>
-        <h3>MADHU</h3>
-        <h3>MEERA</h3>
-        <h3>MUSKAAN</h3>
-        <h3>MOUNYA</h3>
-        <h3>MAYURI</h3>
-        <p>N</p>
-        <h3>NANDINI</h3>
-        <h3>NAYANA</h3>
-        <h3>NETHRA</h3>
-        <h3>NEHA</h3>
-        <h3>NAYANIKA</h3>
-        <p>O</p>
-        <p>P</p>
-        <h3>PALLAVI</h3>
-        <h3>PADDU</h3>
-        <h3>PRANAVI</h3>
-        <h3>PRANAV</h3>
-        <h3>PARINITHA</h3>
-        <p>Q</p>
-        <p>R</p>
-        <h3>RANVEER</h3>
-        <h3>RABEENA</h3>
-        <h3>RIYA</h3>
-        <h3>ROOPA</h3>
-        <h3>REVATHI</h3>
-        <p>S</p>
-        <h3>SUJITHA</h3>
-        <h3>SRITHA</h3>
-        <h3>SASANK</h3>
-        <h3>SINDHU</h3>
-        <h3>SURYA</h3>
-        <p>T</p>
-        <h3>TANISHA</h3>
-        <p>U</p>
-        <p>V</p>
-        <h3>VANI</h3>
-        <h3>VANDANA</h3>
-        <h3>VINOD</h3>
-        <h3>VINEETHA</h3>
-        <h3>VANITHA</h3> 
-        <p>W</p>
-        <p>X</p>  
-        <p>Y</p> 
-        <p>Z</p> 
+        <div class="content">
+        <h1 id="hrs" class="timer">00</h1>
+        <p>:</p>
+        <h1 id="mins" class="timer">00</h1>
+        <p>:</p>
+        <h1 id="secs" class="timer">00</h1>
+        <h1 id="time">AM</h1>
     </div>
+        <div class="btns">
+            <button id="sbtn" class="buttons">Start</button>
+            <button id="pbtn" class="buttons">Pause</button>
+            <button id="ebtn" class="buttons">Stop</button>
+        </div>
+    </div>
+    <script src="./counter.js"></script>
 </body>
 </html>
